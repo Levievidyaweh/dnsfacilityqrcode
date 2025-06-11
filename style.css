@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.ibb.co/sttGCWn/Discover-a-cleaner-home-today-Click-the-link-for.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background: rgba(21, 34, 56, 0.8); /* Midnight Blue with opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(3px);
+    pointer-events: none; /* Allows clicks to pass through */
+}
+
+.card {
+    background-color: beige;
+    width: 350px;
+    padding: 20px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.card img.logo {
+    width: 150px; /* Bigger logo */
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #152238; /* Midnight Blue */
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    font-style: italic; /* Slanted text */
+}
+
+.card a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic; /* Slanted links */
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
